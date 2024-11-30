@@ -1,0 +1,51 @@
+-- Assessment Task 3
+
+
+-- Create a new database called "School".
+
+
+
+-- Note: Although the constraints are upto you, take into consideration the following:
+-- We must have a phone number to contact students in case of an emergency.
+-- We must have ids as the primary key of the tables
+-- Phone numbers and emails must be unique to the individual.
+
+
+
+-- This database has 2 tables called "students" and "teachers".
+-- Create a table called "students" with the follwing columns:
+    	- student_id
+	- first_name
+	- last_name
+	- homeroom_number
+	- phone
+ 	- email
+	- graduation year
+
+
+
+-- Create a table called "teachers" with the following columns:
+	- teacher_id
+	- first_name
+	- last_name
+
+
+
+-- Add the following columns to the "teachers" table.
+	- homeroom_number
+	- department
+	- email
+	- phone
+
+
+
+-- Insert a student named Pikah Chu (student_id=1) who has a phone number of 0207-574-1223 
+-- and doesn't have an email. He graduates in 2022 and has 12 as a homeroom number.
+
+
+
+-- Insert a teacher names Maximus Prime (teacher_id = 1) who as a homeroom number of 45 
+-- and is from the Machine Learning department. His contact info is: mprime@university.ac.uk 
+-- and a phone number of 0207-123-4567.
+
+
